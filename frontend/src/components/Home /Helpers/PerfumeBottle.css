@@ -1,0 +1,59 @@
+.hcperfume_images{
+    height: 460px;
+    width: 100%;
+}
+.cperfume-bottle{
+    height: 92%;
+    width: 96%;
+    background-color: #f1eceb;
+    border: 1px solid rgb(237, 234, 234);
+}
+.hctag{
+    height: 66px;
+    width:16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* visibility:hidden; */
+    background-color: rgb(244, 81, 81);
+    color: white;
+    border-radius: 50%;
+}
+
+.cheart{
+    position: relative;
+    top: -69%;
+    left: 87%;
+    font-size: 29px;
+}
+.hctag{
+    position: relative;
+    top: -83%;
+    left: 3%;
+}
+.visible{
+    visibility: hidden;
+}
+.hctag h2{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.hctext{
+    position:relative;
+    bottom: 17%;
+    text-align: center;
+}
+.hctext p{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: gray;
+}
+.hctext h2{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}

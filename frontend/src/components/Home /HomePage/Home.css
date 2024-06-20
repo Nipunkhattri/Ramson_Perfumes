@@ -1,0 +1,267 @@
+/* Target the main container of your component */
+.black-screen-text {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  /* Style the call text with a larger font size and bolder font weight */
+  .black-screen-text .call {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Style the discount offers with a different color */
+  .black-screen-text .discount {
+    color: lightblue;
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+  }
+  .icons{
+    display: flex;
+    align-items: end;
+    margin-top:3px;
+    justify-content: end;
+    color: white;
+    width: 21%;
+  }
+  .mid-text{
+    width: 29%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+  .contact{
+    width: 25%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .TopBar{
+    height: 34px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+  }
+  .Navbar{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .toggle{
+    width: 29%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .Brand{
+    width: 29%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .asc{
+    width: 29%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+  }
+  .brand_img{
+    font-size: 0px;
+    cursor: pointer;
+  }
+  .toogle_img{
+    cursor: pointer;
+  }
+  .categories{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .category_data{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  p:hover{
+    text-decoration: underline;  
+  }
+  .Banner{
+    height: 600px;
+    width: 100%;
+    background-color: brown;
+  }
+  .slider-item {
+    height: 100%;
+    width: 100%;
+    display: none;
+    transition: transform 0.5s ease-in-out;  /* Add transition properties */
+  }
+  .img_banner{
+    height: 100%;
+    width: 100%;
+  }
+  .active{
+    display: block;
+  }
+  .video{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .videoo{
+    width: 100%;
+    height: 100%;
+  }
+  .new_arival{
+    height: 800px;
+    width:99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .new_container{
+    height: 90%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .text_new{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text_new h2{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .text_new h3{
+    padding: 5px 0px;
+    margin: 7px 0px;
+    font-weight: 300;
+    letter-spacing: 3px;
+
+  }
+  .new_container_image{
+    height: 90%;
+    width: 100%;
+    border-radius: 12px;
+    background: url('../../../assests/Post-16_Web_banners_2.webp') no-repeat center center/cover;
+  }
+  .ramsons-premium-for-men {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: relative;
+    top: 66px;
+    left: 49%;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .product-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .brand {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .product-title {
+    font-size: 18px;
+  }
+  
+  .product-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .size {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .price-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+    color: #aaa;
+  }
+  
+  .discount-price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .discount {
+    font-size: 12px;
+    color: #007bff;
+    margin-left: 5px;
+  }
+  
+  .add-to-cart {
+    background-color: black;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #0069d9;
+  }
+  .image_logo{
+    height: 300px;
+  }
+  .third_footer{
+    height: 250px;
+    width: 100%;
+    background: url('../../../assests/Screenshot\ from\ 2024-06-06\ 15-31-11.png') no-repeat center center/cover;
+  }
+  .second_footer{
+    height: 500px;
+    width: 100%;
+    background: url('../../../assests/footer.png');
+  }
+  .perfume-bottles{
+    height: 550px;
+    width: 98%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:16px 15px;
+  }

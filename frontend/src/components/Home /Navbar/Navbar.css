@@ -1,0 +1,111 @@
+/* Target the main container of your component */
+.black-screen-text {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Center the text horizontally */
+  }
+  
+  /* Style the call text with a larger font size and bolder font weight */
+  .black-screen-text .call {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Style the discount offers with a different color */
+  .black-screen-text .discount {
+    color: lightblue;
+  }
+  .container{
+    height: 100vh;
+    width: 100%;
+  }
+  .icons{
+    display: flex;
+    align-items: end;
+    margin-top:3px;
+    justify-content: end;
+    color: white;
+    width: 21%;
+  }
+  .mid-text{
+    width: 29%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+  }
+  .contact{
+    width: 25%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .TopBar{
+    height: 34px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+  }
+  .Navbar{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .toggle{
+    width: 29%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .Brand{
+    width: 29%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .asc{
+    width: 29%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+  }
+  .brand_img{
+    font-size: 0px;
+    cursor: pointer;
+  }
+  .toogle_img{
+    cursor: pointer;
+  }
+  .categories{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .category_data{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+  }
+  p:hover{
+    text-decoration: underline;  
+  }
+  .Profile_btn{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+  }

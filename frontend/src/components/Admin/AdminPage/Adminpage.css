@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* App Container */
+  .App {
+    display: flex; /* Center content horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure content fills viewport height */
+    background-color: #eee; /* Light background for better readability */
+  }
+  
+  /* Buttons */
+  .btn1 {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #007bff; /* Blue primary button */
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0069d9; /* Darken on hover */
+  }
+  
+  /* Popups */
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center popups */
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    z-index: 10; /* Ensure popups are above other elements */
+    opacity: 1; /* Ensure popups are initially visible */
+    width: 600px;
+    transition: opacity 0.2s ease-in-out; /* Smooth fade in/out animations */
+  }
+  
+  .popup.hidden {
+    opacity: 0; /* Hide popups smoothly */
+    pointer-events: none; /* Disable interaction while hidden */
+  }
+  
+  /* Popup Titles */
+  .popup h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+  }
+
+  .btn_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  
+  select, input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 94%; 
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  

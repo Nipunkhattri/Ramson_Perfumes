@@ -1,0 +1,87 @@
+.review-popup {
+    position: fixed; /* Ensures the popup stays on top of other content */
+    top: 50%; /* Centers the popup vertically */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Positions the popup in the center */
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border: 1px solid #ccc; /* Light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    z-index: 100; /* Ensures the popup has higher stacking order */
+    width: 400px; /* Adjust width as needed */
+    max-width: 80%; /* Responsive behavior for smaller screens */
+  }
+  
+  .review-popup h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .star-rating {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .star-rating span {
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .star.filled {
+    color: black; /* Change color for filled stars */
+  }
+  
+  .photo-upload {
+    margin-bottom: 15px;
+    width: 91%;
+  }
+  
+  .photo-upload label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .photo-upload input[type="file"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .content-textarea {
+    margin-bottom: 15px;
+    width: 90%;
+  }
+  
+  .content-textarea label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .content-textarea textarea {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .review-popup button {
+    background-color: #4CAF50; /* Green color for submit button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .review-popup button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  .blur{
+    filter: blur(8px);
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

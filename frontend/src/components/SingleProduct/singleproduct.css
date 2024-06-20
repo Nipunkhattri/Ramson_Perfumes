@@ -1,0 +1,252 @@
+.single-product-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.single-product-div {
+    height: 618px;
+    width: 100%;
+    display: flex;
+}
+
+.image-div {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 3%;
+    /* align-items: center; */
+}
+
+.image {
+    height: 571px;
+    width: 632px;
+    /* border: 2px solid red; */
+}
+
+.content-div {
+    height: 75%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.content-div h2 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.content-div img {
+    height: 80px;
+    width: 90px;
+}
+
+.img_p {
+    display: flex;
+    align-items: start;
+}
+
+.price {
+    display: flex;
+}
+
+.dis {
+    color: red;
+    font-size: 20px;
+}
+
+.act_price {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Add-div {
+    display: flex;
+    height: 60px;
+    width: 430px;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+
+.idi {
+    height: 94%;
+    width: 48%;
+    border: 1px solid black;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-btn {
+    height: 100%;
+    width: 50%;
+    background-color: #212020;
+    color: rgb(233, 222, 222);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: black;
+}
+
+.increase {
+    border: none;
+    font-size: 35px;
+    background: none;
+    cursor: pointer;
+}
+
+.decrease {
+    border: none;
+    font-size: 45px;
+    background: none;
+    cursor: pointer;
+}
+
+.increase:hover {
+    background: none;
+}
+
+.decrease:hover {
+    background: none;
+}
+
+.number1 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.desc {
+    height: 300px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.desc h3 {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.content-div-data {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.like {
+    height: 1902px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.like_head {
+    font-weight: 400;
+    font-size: 30px;
+    /* text-decoration: underline; */
+}
+
+.third_footer {
+    height: 250px;
+    width: 100%;
+    background: url('../../assests/Screenshot\ from\ 2024-06-06\ 15-31-11.png') no-repeat center center/cover;
+}
+
+.second_footer {
+    height: 500px;
+    width: 100%;
+    background: url('../../assests/footer.png');
+}
+
+.write-review {
+    height: 1200px;
+    width: 99.8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products_data1 {
+    height: 24%;
+    width: 80%;
+    padding: 5px 30px;
+}
+
+.review-top-bar {
+    height: 12%;
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-btn {
+    height: 46px;
+    width: 150px;
+    font-size: 20px;
+    border: 1px solid gray;
+    background: none;
+    border-radius: 5px;
+}
+
+.text-review {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.review-btn:hover {
+    background: none;
+    cursor: pointer;
+}
+
+.review-div {
+    height: 84%;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+}
+
+.user-review {
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(229, 226, 226); */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(201, 200, 200);
+    margin-right: 10px;
+}
+
+.user-review img{
+    height: 300px;
+    width: 300px;
+}
+.user-review h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.user-review h2{
+    font-size: 16px;
+    width: 80%;
+    font-weight: 500;
+}
+.star {
+    color: #ddd; /* Default star color (unfilled) */
+    cursor: pointer; /* Make stars clickable (optional) */
+}
+
+.star.filled {
+color: black; /* Color for filled stars (adjust as desired) */
+}

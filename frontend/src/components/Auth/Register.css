@@ -1,0 +1,134 @@
+.register-container{
+    height: 100vh;
+    width: 100%;
+}
+.login-form {
+    width: 500px;
+    height: 269px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  .register-form {
+    width: 500px;
+    height: 320px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+  }
+    
+  .register-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .register-form input[type="email"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .input_name_text{
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .login-form button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    height: 45px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-form a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #999;
+  }
+  
+  .register-form button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    height: 45px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .register-form a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #999;
+  }
+
+  .login_or_register{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .lg{
+    height: 100%;
+    width: 50%;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+  }
+  .color{
+    background: none;
+  }
+  .lg:hover{
+    background: none;
+  }
+  .input_name{
+    width: 100%;
+    display: flex;
+  }
