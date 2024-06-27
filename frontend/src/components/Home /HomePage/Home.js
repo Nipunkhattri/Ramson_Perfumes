@@ -25,7 +25,7 @@ import video from '../../../assests/brand.mp4'
 import { useNavigate } from 'react-router-dom';
 import { Navbar } from '../Navbar/Navbar';
 import { useDispatch, useSelector } from 'react-redux';
-import { getProductBycategory } from '../../../redux/features/ProductSlice';
+import { CleanProductData, getProductBycategory } from '../../../redux/features/ProductSlice';
 import { Card } from '../Helpers/Card';
 export const Home = () => {
   const videoRef = useRef(null);
@@ -74,6 +74,7 @@ export const Home = () => {
   }, [params]);
 
   useEffect(() => {
+    dispatch(CleanProductData())
     setparams({ ...params, Category: 'ShopPoints',page:1 })
   }, [])
 
@@ -152,6 +153,7 @@ export const Home = () => {
             src={card.image}
             price={card.Price}
             discount={card.OFFPercent}
+            id={card._id}
           />
         ))}
       </div>

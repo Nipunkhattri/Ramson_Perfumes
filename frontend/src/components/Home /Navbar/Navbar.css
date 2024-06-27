@@ -78,6 +78,8 @@
   .brand_img{
     font-size: 0px;
     cursor: pointer;
+    height: 100px;
+    width: 120px;
   }
   .toogle_img{
     cursor: pointer;

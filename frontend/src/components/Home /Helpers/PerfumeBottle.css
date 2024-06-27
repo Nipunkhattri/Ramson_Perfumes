@@ -7,6 +7,7 @@
     width: 96%;
     background-color: #f1eceb;
     border: 1px solid rgb(237, 234, 234);
+    cursor: pointer;    
 }
 .hctag{
     height: 66px;

@@ -1,10 +1,16 @@
 import React from 'react'
 import './PerfumeBottle.css'
 import { CiHeart } from "react-icons/ci";
+import { useNavigate } from 'react-router-dom';
 
-export const PerfumeBottle = ({ name, src, price ,discount }) => {
+export const PerfumeBottle = ({ name, src, price ,discount ,id}) => {
+  const navigate = useNavigate();
+  const handleNavigateproduct = (id) =>{
+    console.log("Hii");
+    navigate(`/product/${id}`)
+}
   return (
-    <div className="cperfume-bottle">
+    <div className="cperfume-bottle"  onClick={() => handleNavigateproduct(id)}>
       <img src={src} alt={name} className='hcperfume_images'/>
       <CiHeart className='cheart'/>
       <div className={`hctag ${discount > 0 ? '' : 'visible'}`}>

@@ -28,7 +28,6 @@ export const Navbar = () => {
         navigate(`/products/${name}`)
     }
     const handlenavigatehome = async() =>{
-        await dispatch(CleanProductData())
         navigate('/')
     }
     useEffect(()=>{
@@ -87,7 +86,12 @@ export const Navbar = () => {
                     }
                     <CiSearch style={{ fontSize: "25px", marginRight: "10px" }} />
                     <IoCartOutline style={{ fontSize: "25px", marginRight: "10px" }} onClick={toggleSidebar}/>
-                    <CiLogout style={{ fontSize: "25px", marginRight: "10px" }} onClick={handleLogout}/>
+                    {
+                        user?
+                        <CiLogout style={{ fontSize: "25px", marginRight: "10px" }} onClick={handleLogout}/>
+                        :
+                        <></>
+                    }
                 </div>
                 <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
             </div>
