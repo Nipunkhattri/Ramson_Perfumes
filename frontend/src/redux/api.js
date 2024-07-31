@@ -2,7 +2,8 @@ import axios from 'axios';
 
 const Api = axios.create({
     // baseURL :"http://localhost:5000/"
-    baseURL:"https://ramson-perfumes.onrender.com/"
+    // baseURL:"https://ramson-perfumes.onrender.com/"
+    baseURL:"https://ramson-perfumes.vercel.app/"
 })
   
 const getToken = () => {

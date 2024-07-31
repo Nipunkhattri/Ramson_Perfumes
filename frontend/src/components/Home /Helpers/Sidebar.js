@@ -25,7 +25,7 @@ export const Sidebar = ({ isOpen, toggleSidebar }) => {
                 toast.error("Please Add Something to Cart");
                 return;
             }
-            const orderUrl = 'https://ramson-perfumes.onrender.com/api/checkout';
+            const orderUrl = 'https://ramson-perfumes.vercel.app/api/checkout';
             const order = await axios.post(orderUrl, {
                 amount: TotalCost
             },{
@@ -39,7 +39,7 @@ export const Sidebar = ({ isOpen, toggleSidebar }) => {
                 amount: order.data.order.amount,
                 order_id: order.data.order.id,
                 handler: async (response) => {
-                    const verifyUrl = 'https://ramson-perfumes.onrender.com/api/verification';
+                    const verifyUrl = 'https://ramson-perfumes.vercel.app/api/verification';
                     const data = {
                         razorpay_order_id: response.razorpay_order_id,
                         razorpay_payment_id: response.razorpay_payment_id,
@@ -62,7 +62,7 @@ export const Sidebar = ({ isOpen, toggleSidebar }) => {
 
                         console.log(combinedData)
 
-                        const order_res = await axios.post('https://ramson-perfumes.onrender.com/api/save_order', combinedData, {
+                        const order_res = await axios.post('https://ramson-perfumes.vercel.app/api/save_order', combinedData, {
                             headers: {
                                 'Authorization': `Bearer ${token}`
                             }
